@@ -1,0 +1,29 @@
+{
+  "name": "upper-case",
+  "version": "0.0.0",
+  "description": "Uppercase a string",
+  "main": "upper-case.js",
+  "scripts": {
+    "test": "istanbul cover _mocha -- -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/blakeembrey/upper-case.git"
+  },
+  "keywords": [
+    "cases",
+    "upper",
+    "uppercase",
+    "case"
+  ],
+  "author": "Blake Embrey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/blakeembrey/upper-case/issues"
+  },
+  "homepage": "https://github.com/blakeembrey/upper-case",
+  "devDependencies": {
+    "mocha": "~1.17.1",
+    "istanbul": "~0.2.4"
+  }
+}
