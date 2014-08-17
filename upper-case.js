@@ -1,3 +1,5 @@
+var upperCase = String.prototype.toUpperCase;
+
 /**
  * Upper case a string.
  *
@@ -5,5 +7,5 @@
  * @return {String}
  */
 module.exports = function (str) {
-  return str == null ? '' : String.prototype.toUpperCase.call(str);
+  return str == null ? '' : upperCase.call(str);
 };
