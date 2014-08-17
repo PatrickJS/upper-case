@@ -5,7 +5,7 @@
 [![Test coverage][coveralls-image]][coveralls-url]
 [![Gittip][gittip-image]][gittip-url]
 
-Upper case a string.
+Upper case a string. Also handles non-string entities, such as objects with a `toString` property, numbers and booleans. Empty values (`null` and `undefined`) will come out as an empty string.
 
 ## Installation
 
@@ -18,7 +18,10 @@ npm install upper-case --save
 ```js
 var upperCase = require('upper-case');
 
+upperCase(null);     //=> ""
 upperCase('string'); //=> "STRING"
+
+upperCase({ toString: function () { return 'test'; } }); //=> "TEST"
 ```
 
 ## License
