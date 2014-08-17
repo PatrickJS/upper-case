@@ -1,7 +1,7 @@
 {
   "name": "upper-case",
   "version": "1.0.0",
-  "description": "Uppercase a string",
+  "description": "Upper case a string",
   "main": "upper-case.js",
   "scripts": {
     "test": "istanbul cover _mocha -- -R spec"

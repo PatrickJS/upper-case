@@ -1,9 +1,9 @@
 /**
- * Uppercase a string.
+ * Upper case a string.
  *
- * @param  {String} string
+ * @param  {String} str
  * @return {String}
  */
-module.exports = function (string) {
-  return String.prototype.toUpperCase.call(string);
+module.exports = function (str) {
+  return str == null ? '' : String.prototype.toUpperCase.call(str);
 };
