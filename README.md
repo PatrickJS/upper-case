@@ -5,6 +5,8 @@
 [![Test coverage][coveralls-image]][coveralls-url]
 [![Gittip][gittip-image]][gittip-url]
 
+[![NPM](https://nodei.co/npm/upper-case.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/upper-case/)
+
 Upper case a string. Also handles non-string entities, such as objects with a `toString` property, numbers and booleans. Empty values (`null` and `undefined`) will come out as an empty string.
 
 ## Installation
